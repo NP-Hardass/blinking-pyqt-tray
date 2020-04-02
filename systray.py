@@ -2,6 +2,7 @@ import sys
 import signal
 import os
 import argparse
+from builtins import str
 
 from pkgutil import find_loader
 if find_loader('PyQt4') is not None:
